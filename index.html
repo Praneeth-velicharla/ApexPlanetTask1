@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Demo - FlipFly</title>   
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <table class="blur-table">
+                <tr>
+                    <th colspan="2" class="mac-style">FlipFly</th>
+                </tr>
+                <tr>
+                    <td><b>Tech Stack</b></td>
+                    <td><i>HTML, CSS, JS, VS Code, GitHub</i></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <b>1.</b> <i>FlipFly</i> is a <b>web-based game</b> where you control a <b>bird</b> through <b>pipes</b>.<br>
+                        <b>2.</b> Tap the screen to make the <i>bird</i> flap and navigate through <b>obstacles</b>.<br>
+                        <b>3.</b> Your objective is to travel <b>as far as possible</b> without hitting any <i>pipes</i>.
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+
+        <div class="right-section">
+            <div class="image-container">
+                <img src="birddemo.gif" title="Game Demo" onclick="displayTitle()">
+                <h2 id="image-title"></h2>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <footer>
+        <h2 id="dh-footer">&copy; 2025 praneeth. All rights reserved.</h2>
+    </footer>
+    
+
+
+
+    <script>
+        function displayTitle() {
+            document.getElementById('image-title').textContent = 'Demo Game';
+        }
+    </script>
+</body>
+</html>
